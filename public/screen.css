@@ -4,9 +4,79 @@
 
 html {
   height: 100%;
+  background-color: rgb(36, 120, 146);
 }
 
 body {
-  margin: 0;
+  margin: 10rem;
+  margin-top: 0.5rem;
   min-height: 100%;
+  background-color: rgb(148, 181, 194);
 }
+
+nav {
+  color: whitesmoke;
+  background-color: rgb(11, 183, 206);
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Tlink {
+  color: whitesmoke;
+}
+
+.header {
+  margin: 1rem;
+  font: 64px / 1 sans-serif;
+  text-align: center;
+  color: rgb(83, 83, 83);
+  padding: 1rem;
+}
+
+h1 {
+  margin: 10;
+  color: rgb(70, 67, 67);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: underline;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  border-style: solid;
+  margin-left: 1rem;
+  color: black;
+  border-color: rgb(13, 158, 158);
+  float: left;
+}
+
+.right {
+  margin-left: 18rem;
+  line-height: 1.2rem;
+}
+
+footer {
+  color: black;
+  float: center;
+  background-color: rgb(173, 173, 173);
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Blink {
+  color: black;
+}
+
+/* rgb(13, 158, 158) */
